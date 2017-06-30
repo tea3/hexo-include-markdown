@@ -1,0 +1,36 @@
+{
+  "name": "hexo-include-markdown",
+  "version": "0.0.1",
+  "main": "index",
+  "dependencies": {},
+  "description": "Easily load markdown files in Markdown.",
+  "devDependencies": {},
+  "directories": {},
+  "author": {
+    "email": "tea3gtinfo@gmail.com",
+    "name": "tea3",
+    "url": "https://tea3.github.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/tea3/hexo-include-markdown/issues"
+  },
+  "keywords": [
+    "hexo",
+    "markdown",
+    "import",
+    "include",
+    "partial"
+    "plugin"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "tea3gt",
+      "email": "tea3gtinfo@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tea3/hexo-include-markdown.git"
+  }
+}
