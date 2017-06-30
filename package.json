@@ -19,7 +19,7 @@
     "markdown",
     "import",
     "include",
-    "partial"
+    "partial",
     "plugin"
   ],
   "license": "MIT",
