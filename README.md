@@ -1,10 +1,10 @@
 # hexo-include-markdown
 
-This plugin for [Hexo](https://hexo.io/) can easily load markdown files in Markdown .
+This plugin for [Hexo](https://hexo.io/) can easily load another markdown files in markdown file .
 
 ## Requirements
 
-This plugin supported Hexo 3.2 or later and node.js v4.3 or later.
+This plugin supports node.js v4.3 or later. Also , I recommend Hexo v3.2 or later.
 
 ## Installation
 
@@ -26,18 +26,18 @@ title: Hello World
 
 ## include sample
 
-Load markdown with the following code.
+Please load another markdown file with the following code.
 
 <!-- md template.md -->
 
 ```
 
-Next prepare the markdown for the template. For example, create a `source/_template/template.md`.
+Next, please create a new markdown for the template. For example, create `source/_ template/template.md` as follows.
 
 ```
 ### include me ?
 
-This content is read from an external markdown file.
+Here is the `template.md`'s content . This content is read from an external markdown file.
 
 ```
 
