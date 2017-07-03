@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/shibatamasakazu/.nvm/versions/node/v4.3.0/bin/node',
+1 verbose cli   '/Users/shibatamasakazu/.nvm/versions/node/v4.3.0/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.8.8
+3 info using node@v4.3.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/shibatamasakazu/Desktop/web/hexo-include-markdown',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/shibatamasakazu/.npm/hexo-include-markdown/0.0.1/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/shibatamasakazu/.npm correctMkdir not in flight; initializing
+10 info lifecycle hexo-include-markdown@0.0.1~prepublish: hexo-include-markdown@0.0.1
+11 silly lifecycle hexo-include-markdown@0.0.1~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/shibatamasakazu/.npm/hexo-include-markdown/0.0.1/package.tgz',
+12 verbose tar pack   '/Users/shibatamasakazu/Desktop/web/hexo-include-markdown' ]
+13 verbose tarball /Users/shibatamasakazu/.npm/hexo-include-markdown/0.0.1/package.tgz
+14 verbose folder /Users/shibatamasakazu/Desktop/web/hexo-include-markdown
+15 verbose addLocalTarball adding from inside cache /Users/shibatamasakazu/.npm/hexo-include-markdown/0.0.1/package.tgz
+16 verbose correctMkdir /Users/shibatamasakazu/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd hexo-include-markdown@0.0.1
+18 verbose afterAdd /Users/shibatamasakazu/.npm/hexo-include-markdown/0.0.1/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/shibatamasakazu/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/shibatamasakazu/.npm/hexo-include-markdown/0.0.1/package/package.json written
+21 silly publish { name: 'hexo-include-markdown',
+21 silly publish   version: '0.0.1',
+21 silly publish   main: 'index',
+21 silly publish   dependencies: {},
+21 silly publish   description: 'Easily load markdown files in Markdown.',
+21 silly publish   devDependencies: {},
+21 silly publish   directories: {},
+21 silly publish   author:
+21 silly publish    { name: 'tea3',
+21 silly publish      email: 'tea3gtinfo@gmail.com',
+21 silly publish      url: 'https://tea3.github.io/' },
+21 silly publish   bugs: { url: 'https://github.com/tea3/hexo-include-markdown/issues' },
+21 silly publish   keywords: [ 'hexo', 'markdown', 'import', 'include', 'partial', 'plugin' ],
+21 silly publish   license: 'MIT',
+21 silly publish   maintainers: [ { name: 'tea3gt', email: 'tea3gtinfo@gmail.com' } ],
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/tea3/hexo-include-markdown.git' },
+21 silly publish   readme: '# hexo-include-markdown\n\nThis plugin for [Hexo](https://hexo.io/) can easily load another markdown files in markdown file .\n\n## Requirements\n\nThis plugin supports node.js v4.3 or later. Also , I recommend Hexo v3.2 or later.\n\n## Installation\n\n``` bash\n$ npm install hexo-include-markdown --save\n```\n\n\n## Usage\n\nPlease add `<!-- md your-markdown-path.md -->` in markdown file.\n\nFor example, edit the `source/_posts/hello-world.md` as follows.\n\n```\n---\ntitle: Hello World\n---\n\n## include sample\n\nPlease load another markdown file with the following code.\n\n<!-- md template.md -->\n\n```\n\nNext, please create a new markdown for the template. For example, create `source/_ template/template.md` as follows.\n\n```\n### include me ?\n\nHere is the `template.md`\'s content . This content is read from an external markdown file.\n\n```\n\n\n## option\n\nPlease set the following options. Please edit `_config.yml`.\n\n```\ninclude_markdown:\n  dir: source/_template   # Base directory of template markdown\n  verbose : true          # If you want to check the path of markdown that use <!-- md --> tag , please set the true.\n```\n\n## Referenced issue\n\n- [hexo issue 1904](https://github.com/hexojs/hexo/issues/1904)\nHow do I split a post up into several smaller markdown files?\n\n- [hexo issue 2376](https://github.com/hexojs/hexo/issues/2376)\nHow to make a home page out of multiple markdown files?\n\n- [hexo issue 2582](https://github.com/hexojs/hexo/issues/2582)\nCache not updating on nested includes\n\n\n## License\n\nMIT\n\n[Hexo]: http://hexo.io/',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '5975cad3592a1830cdf151ac352815a3b7ee43e5',
+21 silly publish   homepage: 'https://github.com/tea3/hexo-include-markdown#readme',
+21 silly publish   _id: 'hexo-include-markdown@0.0.1',
+21 silly publish   scripts: {},
+21 silly publish   _shasum: '4a293adfdeb76095d90b0abfd3cd4137cd633ccb',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name hexo-include-markdown
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'hexo-include-markdown',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   name: 'hexo-include-markdown',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/hexo-include-markdown
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/shibatamasakazu/.npm/hexo-include-markdown/0.0.1/package.tgz
+30 verbose request uri https://registry.npmjs.org/hexo-include-markdown
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 19:00:03
+33 verbose request using bearer token for auth
+34 verbose request id d3588293cbf77875
+35 http request PUT https://registry.npmjs.org/hexo-include-markdown
+36 http 403 https://registry.npmjs.org/hexo-include-markdown
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Mon, 03 Jul 2017 10:00:04 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-itm7426-ITM',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1499076004.118778,VS0,VE668',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /Users/shibatamasakazu/.npm/registry.npmjs.org/hexo-include-markdown on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 0.0.1." : hexo-include-markdown
+40 verbose stack     at makeError (/Users/shibatamasakazu/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/Users/shibatamasakazu/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+40 verbose stack     at Request._callback (/Users/shibatamasakazu/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+40 verbose stack     at Request.self.callback (/Users/shibatamasakazu/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/request/request.js:200:22)
+40 verbose stack     at emitTwo (events.js:87:13)
+40 verbose stack     at Request.emit (events.js:172:7)
+40 verbose stack     at Request.<anonymous> (/Users/shibatamasakazu/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/request/request.js:1067:10)
+40 verbose stack     at emitOne (events.js:82:20)
+40 verbose stack     at Request.emit (events.js:169:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/Users/shibatamasakazu/.nvm/versions/node/v4.3.0/lib/node_modules/npm/node_modules/request/request.js:988:12)
+41 verbose statusCode 403
+42 verbose pkgid hexo-include-markdown
+43 verbose cwd /Users/shibatamasakazu/Desktop/web/hexo-include-markdown
+44 error Darwin 14.5.0
+45 error argv "/Users/shibatamasakazu/.nvm/versions/node/v4.3.0/bin/node" "/Users/shibatamasakazu/.nvm/versions/node/v4.3.0/bin/npm" "publish"
+46 error node v4.3.0
+47 error npm  v3.8.8
+48 error code E403
+49 error "You cannot publish over the previously published version 0.0.1." : hexo-include-markdown
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
