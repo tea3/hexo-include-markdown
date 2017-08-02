@@ -2,6 +2,10 @@
 
 This plugin for [Hexo](https://hexo.io/) can easily load another markdown files in markdown file .
 
+## Document
+
+[Hexoでmarkdownに外部マークダウンを読み込ませるプラグインを作った](https://tea3.github.io/p/17/hexo-include-markdown/)
+
 ## Requirements
 
 This plugin supports node.js v4.3 or later. Also , I recommend Hexo v3.2 or later.
