@@ -1,6 +1,6 @@
 {
   "name": "hexo-include-markdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index",
   "dependencies": {},
   "description": "Easily load markdown files in Markdown.",
