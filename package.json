@@ -1,6 +1,6 @@
 {
   "name": "hexo-include-markdown",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index",
   "dependencies": {},
   "description": "Easily load markdown files in Markdown.",
@@ -9,7 +9,7 @@
   "author": {
     "email": "tea3gtinfo@gmail.com",
     "name": "tea3",
-    "url": "https://tea3.github.io/"
+    "url": "https://photo-tea.com/"
   },
   "bugs": {
     "url": "https://github.com/tea3/hexo-include-markdown/issues"

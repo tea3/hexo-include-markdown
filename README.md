@@ -4,7 +4,7 @@ This plugin for [Hexo](https://hexo.io/) can easily load another markdown files 
 
 ## Document
 
-[Hexoでmarkdownに外部マークダウンを読み込ませるプラグインを作った](https://tea3.github.io/p/17/hexo-include-markdown/)
+[Hexoでmarkdownに外部マークダウンを読み込ませるプラグインを作った](https://photo-tea.com/p/17/hexo-include-markdown/)
 
 ## Requirements
 
